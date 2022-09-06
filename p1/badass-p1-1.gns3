@@ -46,7 +46,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "d87b15f7043cfccdb35faa436aa8e15fb8fbfd0fe00afd995c633051ae26639b",
+                    "container_id": "fc575d619877540a40025e94eff35771e362291afc48c853079b63eb5ab8e369",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -68,7 +68,7 @@
                 "console_type": "telnet",
                 "custom_adapters": [],
                 "first_port_name": null,
-                "height": 59,
+                "height": 66,
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
@@ -88,7 +88,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "15d98626f68cd586dd075f74d56c4978bc9edf0ed5d6bb585c9ace40c13d2cbb",
+                    "container_id": "007dc60b4d55b71fa7bfad0a1e0c308d5bff76e091445ce1e1181afe9de25067",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -96,11 +96,11 @@
                     "start_command": null,
                     "usage": ""
                 },
-                "symbol": ":/symbols/docker_guest.svg",
+                "symbol": ":/symbols/classic/route_switch_processor.svg",
                 "template_id": "09e38928-a542-4039-be55-c71d81ed5b8e",
-                "width": 65,
-                "x": -167,
-                "y": 48,
+                "width": 51,
+                "x": -211,
+                "y": 6,
                 "z": 1
             }
         ]

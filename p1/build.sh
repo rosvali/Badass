@@ -1,3 +1,3 @@
 docker pull alpine:latest
 
-docker build .
+docker build -t frrouting/frr .
