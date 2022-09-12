@@ -1,0 +1,30 @@
+# config _raguillo-2
+
+vtysh
+config t
+
+# visibility in other devices
+
+do show ip route
+
+# we can see route reflected only 
+
+do show bgp summary
+
+# we have number 4 self route
+
+do show bgp l2vpn evpn
+
+# config machine
+
+ip addr add 20.1.1.1/24 dev eth1
+ip addr add 20.1.1.2/24 dev eth0
+
+# ping
+
+ping 20.1.1.2
+
+# bridge
+# interface vxlan
+# adding interface vxlan10 to bridge
+# adding interface eth1 to bridge
