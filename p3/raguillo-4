@@ -5,7 +5,10 @@ ip link set dev vxlan10 up
 brctl addif br0 vxlan10
 brctl addif br0 eth0
 
-hostname raguillo-4
+vtysh
+conf t
+
+hostname routeur_raguillo-4
 no ipv6 forwarding
 !
 interface eth2
@@ -27,5 +30,3 @@ router bgp 1
 !
 router ospf
 !
-
-

@@ -1,4 +1,7 @@
-hostname raguillo-1
+vtysh
+conf t
+
+hostname routeur_raguillo-1
 no ipv6 forwarding
 !
 interface eth0
